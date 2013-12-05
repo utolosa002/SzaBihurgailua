@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="right"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:id="@+id/izenburu_geruza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/t_titulua"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/luzera"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/goiko_geruza"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/izenburu_geruza" >
+
+        <EditText
+            android:id="@+id/et_sarrera"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <Spinner
+            android:id="@+id/spinner_hautatzaile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/beheko_geruza"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/goiko_geruza"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_emaitza"
+            android:layout_width="214dp"
+            android:layout_height="163dp"
+            android:ems="10"
+            android:textSize="30sp" />
+
+        <Spinner
+            android:id="@+id/spinner_emaitza"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawSelectorOnTop="true"
+            android:prompt="@string/dist" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/b_itzuli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/itzuli" />
+
+</RelativeLayout>

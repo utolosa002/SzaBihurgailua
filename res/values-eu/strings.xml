@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <string name="app_name">Bihurgailua</string> 
+    <string name="sarrera">Ongi etorri!</string>
+    <string name="menu_settings">Aukerak</string>
+    <string name="monetak">Monetak</string>
+    <string name="luzera">Luzera</string>
+    <string name="tenperatura">Tenperatura</string>
+    <string name="dist">Distantzia</string>
+    <string name="aldatu">Aldatu</string>
+    <string name="itzuli">Itzuli</string>
+    <string name="far">Fahrenheitak</string>
+    <string name="cels">Celsiusak</string>
+    <string name="kodea">http://github.com/utolosa002/SZAandroid</string>
+    <string name="data">v1.0&#8211; 2013&#8211;12&#8211;05</string>
+    <string name="dev">Odei Aiastuy eta Unai Tolosak garatua</string>
+    <string name="gaia">SZA!</string>
+    <string name="ikodea">Kodea</string>
+    <string name="idata">Data</string>
+    <string name="idev">Garapena</string>
+    <string name="igaia">Irakasgaia</string>
+</resources>

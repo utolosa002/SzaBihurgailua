@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Conversor</string> 
+    <string name="sarrera">Bienvenid@</string>
+    <string name="menu_settings">Opciones</string>
+    <string name="monetak">Monedas</string>
+    <string name="luzera">Distancia</string>
+    <string name="tenperatura">Temperatura</string>
+    <string name="dist">Distancia</string>
+    <string name="aldatu">Cambiar</string>
+    <string name="itzuli">Volver</string>
+    <string name="far">Fahrenheits</string>
+    <string name="cels">Celsios</string>
+    <string name="kodea">http://github.com/utolosa002/SZAandroid</string>
+    <string name="data">v1.0&#8211; 2013&#8211;12&#8211;05</string>
+    <string name="dev">Desarrollado por Odei Aiastuy y Unai Tolosa</string>
+    <string name="gaia">SZA!</string>
+    <string name="ikodea">Codigo</string>
+    <string name="idata">Fecha</string>
+    <string name="idev">Desarrolo</string>
+    <string name="igaia">Asignatura</string>
+</resources>

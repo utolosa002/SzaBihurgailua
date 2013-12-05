@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="right"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:id="@+id/izenburu_geruza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/t_titulua"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tenperatura"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/goiko_geruza"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/izenburu_geruza" >
+
+        <EditText
+            android:id="@+id/et_cels"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:digits="1234567890.-"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/tv_cels"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:text="@string/cels" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/beheko_geruza"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/goiko_geruza"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/et_far"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:digits="1234567890.-"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/tv_far"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:text="@string/far" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/b_itzuli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/itzuli" />
+
+</RelativeLayout>

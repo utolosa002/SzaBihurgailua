@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/t_sarrera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="42dp"
+        android:text="@string/sarrera"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/t_sarrera" >
+
+        <Button
+            android:id="@+id/b_luzera"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/luzera" />
+
+        <Button
+            android:id="@+id/b_monetak"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/monetak" />
+
+        <Button
+            android:id="@+id/b_tenp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/tenperatura" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/t_sarrera"
+        android:layout_toLeftOf="@+id/linearLayout1" >
+
+        <ImageView
+            android:id="@+id/irudia"
+            android:contentDescription="@string/sarrera"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_launcher" />
+    </LinearLayout>
+
+</RelativeLayout>
