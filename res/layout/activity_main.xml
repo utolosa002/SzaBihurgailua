@@ -5,7 +5,7 @@
     tools:context=".MainActivity" >
 
     <TextView
-        android:id="@+id/t_sarrera"
+        android:id="@+id/tit_sarrera"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -19,7 +19,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
-        android:layout_below="@+id/t_sarrera"
+        android:layout_below="@+id/tit_sarrera"
         android:text="@string/luzera" />
 
     <Button
@@ -31,6 +31,15 @@
         android:layout_below="@+id/b_luzera"
         android:text="@string/monetak" />
 
+      <Button
+        android:id="@+id/b_tenp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/b_monetak"
+        android:text="@string/tenperatura" />
+    
     <ImageView
         android:id="@+id/irudia"
         android:contentDescription="@string/sarrera"
@@ -42,13 +51,5 @@
         android:layout_below="@+id/b_tenp"
         android:src="@drawable/ic_launcher" />
 
-    <Button
-        android:id="@+id/b_tenp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:layout_below="@+id/b_monetak"
-        android:text="@string/tenperatura" />
-
+  
 </RelativeLayout>

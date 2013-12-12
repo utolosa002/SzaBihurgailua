@@ -21,22 +21,23 @@ public final class R {
         public static final int b_itzuli=0x7f070008;
         public static final int b_luzera=0x7f07000a;
         public static final int b_monetak=0x7f07000b;
-        public static final int b_tenp=0x7f07000d;
+        public static final int b_tenp=0x7f07000c;
         public static final int beheko_geruza=0x7f070005;
-        public static final int et_cels=0x7f07000f;
-        public static final int et_far=0x7f070011;
+        public static final int eskubi_geruza=0x7f07000e;
+        public static final int et_cels=0x7f070010;
+        public static final int et_far=0x7f070012;
         public static final int et_sarrera=0x7f070003;
+        public static final int ezk_geruza=0x7f07000f;
         public static final int goiko_geruza=0x7f070002;
-        public static final int irudia=0x7f07000c;
+        public static final int irudia=0x7f07000d;
         public static final int izenburu_geruza=0x7f070000;
-        public static final int linearLayout1=0x7f07000e;
         public static final int spinner_emaitza=0x7f070007;
         public static final int spinner_hautatzaile=0x7f070004;
-        public static final int t_sarrera=0x7f070009;
         public static final int t_titulua=0x7f070001;
-        public static final int tv_cels=0x7f070010;
+        public static final int tit_sarrera=0x7f070009;
+        public static final int tv_cels=0x7f070011;
         public static final int tv_emaitza=0x7f070006;
-        public static final int tv_far=0x7f070012;
+        public static final int tv_far=0x7f070013;
     }
     public static final class layout {
         public static final int activity_luzera=0x7f030000;

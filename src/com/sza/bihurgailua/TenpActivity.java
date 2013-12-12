@@ -117,8 +117,8 @@ public class TenpActivity extends Activity {
  */
 	@Override
 	public void onBackPressed() {
-		Intent i = new Intent(getApplicationContext(), MainActivity.class);
-		startActivity(i);
+		Intent i_main = new Intent(getApplicationContext(), MainActivity.class);
+		startActivity(i_main);
 		finish();
 	}
 }

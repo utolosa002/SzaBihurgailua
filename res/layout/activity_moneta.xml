@@ -17,7 +17,7 @@
             android:id="@+id/t_titulua"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/luzera"
+            android:text="@string/monetak"
             android:textAppearance="?android:attr/textAppearanceLarge" />
 
     </LinearLayout>

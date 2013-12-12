@@ -5,7 +5,7 @@
     tools:context=".MainActivity" >
 
     <TextView
-        android:id="@+id/t_sarrera"
+        android:id="@+id/tit_sarrera"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="42dp"
@@ -13,12 +13,12 @@
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <LinearLayout
-        android:id="@+id/linearLayout1"
+        android:id="@+id/eskubi_geruza"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        android:layout_below="@+id/t_sarrera" >
+        android:layout_alignParentTop="true" >
 
         <Button
             android:id="@+id/b_luzera"
@@ -40,11 +40,13 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/ezk_geruza"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_below="@+id/t_sarrera"
-        android:layout_toLeftOf="@+id/linearLayout1" >
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tit_sarrera"
+        android:layout_toLeftOf="@+id/eskubi_geruza" >
 
         <ImageView
             android:id="@+id/irudia"
